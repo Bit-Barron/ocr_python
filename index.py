@@ -23,7 +23,7 @@ def vision_endpoint():
             "url": image_url,
             "question": question
         }
-        print("asd")
+        print("assd")
 
         try:
             response = requests.post(BASE_URL, json=payload)
