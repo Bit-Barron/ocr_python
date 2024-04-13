@@ -7,7 +7,9 @@ CORS(app)
 
 BASE_URL = "https://gemini.discord.rocks/vision"
 
-print("")
+@app.route('/')
+def home():
+    return '<h1>Hello World</h1>'
 
 @app.route('/image/vision', methods=['POST'])
 def vision_endpoint():
