@@ -24,6 +24,8 @@ def vision_endpoint():
             "question": question
         }
 
+        print("")
+
         try:
             response = requests.post(BASE_URL, json=payload)
             return jsonify(response.json())
