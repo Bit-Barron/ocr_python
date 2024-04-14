@@ -9,7 +9,7 @@ BASE_URL = "https://gemini.discord.rocks/vision"
 
 @app.route('/')
 def home():
-    return '<h1>Hello Worldasdasdasdasd asd</h1>'
+    return '<h1>Hellso Worldasdasdasdasdasd asd</h1>'
 
 @app.route('/image/vision', methods=['POST'])
 def vision_endpoint():
