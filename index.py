@@ -37,4 +37,4 @@ def vision_endpoint():
         print(e)
 
 if __name__ == '__main__':
-    app.run(host='78.46.221.75', port=80)
+    app.run(host='0.0.0.0', port=80)
